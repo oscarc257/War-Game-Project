@@ -9,7 +9,7 @@ public class App {
         Player player2 = new Player("2");
         deck.shuffle();
 
-        //used for loop to iterate 52 times a player draws
+        //used for loop to iterate 52 times the total number of cards in the deck.
         
         for (int i = 0; i < 52; i++) {
             if ( i % 2 == 0) {
@@ -20,7 +20,7 @@ public class App {
         }
 
        
-        // iterate 26 times and call flip method to determine the score of both players
+        // iterate 26 times and call flip method to determine the number of times the player flips the card or plays.
         
         for (int i = 0; i < 26; i++) {
             Card player1Card = player1.flip();
